@@ -30,15 +30,15 @@ export default class phLayout extends Vue {}
 $primary: #6b2b83;
 body {
   --primary-color: #{$primary};
-  --primary-color-background: #{adjust-color($primary, $alpha: -0.9)};
+  --primary-color-background: #{adjust-color($primary, $alpha: -0.8)};
   --primary-color-darker: #{adjust-color($primary, $lightness: -20)};
-  --element-color: #fafafa;
-  --text-color: rgba(0, 0, 0, 0.8);
-  --text-color-secundary: rgba(0, 0, 0, 0.6);
+  --element-color: #222;
+  --text-color: rgba(255, 255, 255, 0.9);
+  --text-color-secundary: rgba(255, 255, 255, 0.6);
   --box-shadow-color: rgba(0, 0, 0, 0.1);
-  --highlight-color: #fff;
+  --highlight-color: #222;
 
-  background-color: #131512e6;
+  background-color: #2a2b29;
   margin: 0;
   padding: 0;
 }

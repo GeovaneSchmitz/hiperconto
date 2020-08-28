@@ -41,15 +41,13 @@ export default class PhButton extends Vue {
 }
 
 .ph-button:hover {
-  color: var(--primary-color);
   background-color: var(--primary-color-background);
 }
 
 .ph-button:active,
 .ph-button-active,
 .ph-button:focus {
-  color: var(--highlight-color);
+  color: var(--text-color);
   background-color: var(--primary-color);
 }
 </style>
-

@@ -22,5 +22,3 @@ import { Component, Vue } from 'vue-property-decorator'
 })
 export default class PhDefaultHistory extends Vue {}
 </script>
-
-  teste
