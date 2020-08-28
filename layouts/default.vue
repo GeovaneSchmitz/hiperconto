@@ -9,17 +9,20 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-import Image from '@/components/Image.vue'
-import Title from '@/components/Title.vue'
+import PhImage from '@/components/Image.vue'
+import PhTitle from '@/components/Title.vue'
 
-export default Vue.extend({
+import { Component, Vue } from 'vue-property-decorator'
+
+@Component({
   components: {
-    phImage: Image,
-    phTitle: Title,
+    PhImage,
+    PhTitle,
   },
 })
+export default class phLayout extends Vue {}
 </script>
+
 <style lang="scss">
 * {
   font-family: 'Merriweather', serif;

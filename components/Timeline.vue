@@ -5,30 +5,26 @@
     </div>
   </transition>
 </template>
-<script>
-import Vue from 'vue'
 
-export default Vue.extend({
-  props: {
-    option: {
-      type: String,
-      required: true,
-    },
-  },
-  data() {
-    return {
-      show: false,
-    }
-  },
+<script lang="ts">
+import { Prop, Component, Vue } from 'vue-property-decorator'
+
+@Component
+export default class PhTimeline extends Vue {
+  @Prop() readonly option!: string
+  @Prop({ default: false }) readonly firstLetter!: Boolean
+
+  show = false
+
   mounted() {
-    this.$parent.$on('timeline-change', (eventOption) => {
+    this.$parent.$on('timeline-change', (eventOption: String) => {
       this.show = eventOption === this.option
     })
-  },
-})
+  }
+}
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .ph-fade-enter-active {
   order: -10;
 }

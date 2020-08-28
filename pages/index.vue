@@ -77,21 +77,23 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-import Text from '@/components/Text.vue'
-import Question from '@/components/Question.vue'
-import Footer from '@/components/Footer.vue'
-import Timeline from '@/components/Timeline.vue'
-import Button from '@/components/Button.vue'
+import PhText from '@/components/Text.vue'
+import PhQuestion from '@/components/Question.vue'
+import PhFooter from '@/components/Footer.vue'
+import PhTimeline from '@/components/Timeline.vue'
+import PhButton from '@/components/Button.vue'
 
-export default Vue.extend({
+import { Component, Vue } from 'vue-property-decorator'
+
+@Component({
   transition: 'page',
   components: {
-    phText: Text,
-    phTimeline: Timeline,
-    phQuestion: Question,
-    phFooter: Footer,
-    phButton: Button,
+    PhText,
+    PhTimeline,
+    PhQuestion,
+    PhFooter,
+    PhButton,
   },
 })
+export default class PhHyperConto extends Vue {}
 </script>

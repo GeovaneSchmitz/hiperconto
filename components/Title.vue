@@ -8,7 +8,15 @@
     </div>
   </div>
 </template>
-<style scoped>
+
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator'
+
+@Component
+export default class PhTitle extends Vue {}
+</script>
+
+<style lang="scss" scoped>
 .ph-title {
   font-size: 3rem;
   font-weight: 700;

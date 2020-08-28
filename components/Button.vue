@@ -7,28 +7,25 @@
     <slot></slot>
   </button>
 </template>
+
 <script lang="ts">
-import Vue from 'vue'
-export default Vue.extend({
-  props: {
-    option: {
-      type: String,
-      required: true,
-    },
-  },
-  data() {
-    return {
-      active: false,
-    }
-  },
+import { Prop, Component, Vue } from 'vue-property-decorator'
+
+@Component
+export default class PhButton extends Vue {
+  @Prop() readonly option!: string
+
+  active = false
+
   mounted() {
     this.$parent.$on('timeline-change', (eventOption: string) => {
       this.active = this.option === eventOption
     })
-  },
-})
+  }
+}
 </script>
-<style scoped>
+
+<style lang="scss" scoped>
 .ph-button {
   font-size: 12px;
   font-weight: 700;

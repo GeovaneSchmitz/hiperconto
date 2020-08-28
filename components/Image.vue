@@ -3,21 +3,20 @@
     <div class="ph-image-wrapper">
       <img class="ph-image-img" src="~/assets/bale-das-mulheres-bruxas.jpg" />
     </div>
-    <div class="ph-image-description">{{ discription }}</div>
+    <div class="ph-image-description">{{ description }}</div>
   </div>
 </template>
-<script>
-import Vue from 'vue'
-export default Vue.extend({
-  props: {
-    discription: {
-      type: String,
-      default: '',
-    },
-  },
-})
+
+<script lang="ts">
+import { Prop, Component, Vue } from 'vue-property-decorator'
+
+@Component
+export default class PhImage extends Vue {
+  @Prop({ default: '' }) readonly description!: string
+}
 </script>
-<style scoped>
+
+<style lang="scss" scoped>
 .ph-image {
   display: flex;
   flex-direction: column;

@@ -8,22 +8,16 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import { Prop, Component, Vue } from 'vue-property-decorator'
 
-export default Vue.extend({
-  props: {
-    text: {
-      type: Array,
-      required: true,
-    },
-    firstLetter: {
-      type: Boolean,
-      default: false,
-    },
-  },
-})
+@Component
+export default class PhText extends Vue {
+  @Prop() readonly text!: string[]
+  @Prop({ default: false }) readonly firstLetter!: Boolean
+}
 </script>
-<style scoped>
+
+<style lang="scss" scoped>
 .ph-paragraph {
   line-height: 1.5;
   text-align: justify;

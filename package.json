@@ -17,7 +17,9 @@
     "nuxt": "^2.14.0",
     "nuxt-i18n": "^6.13.12",
     "sass-loader": "^10.0.1",
-    "scss-loader": "^0.0.1"
+    "scss-loader": "^0.0.1",
+    "vue-class-component": "^7.2.5",
+    "vue-property-decorator": "^9.0.0"
   },
   "devDependencies": {
     "@nuxt/types": "^2.14.0",

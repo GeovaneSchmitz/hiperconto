@@ -2,9 +2,7 @@
   <div class="ph-question-wrapper">
     <div class="ph-question-selector">
       <div class="ph-question"><slot name="question"></slot></div>
-      <div class="ph-question-buttons">
-        <slot name="buttons"></slot>
-      </div>
+      <div class="ph-question-buttons"><slot name="buttons"></slot></div>
     </div>
     <div class="ph-question-timeline">
       <slot name="timeline"></slot>
@@ -12,19 +10,21 @@
   </div>
 </template>
 <script>
-import Vue from 'vue'
-export default Vue.extend({
-  props: {},
+import { Component, Vue } from 'vue-property-decorator'
+
+@Component
+export default class PhQuestion extends Vue {
   mounted() {
     this.$children.map((child) =>
       child.$on('click', (option) => {
         this.$emit('timeline-change', option)
       })
     )
-  },
-})
+  }
+}
 </script>
-<style scoped>
+
+<style lang="scss" scoped>
 .ph-question {
   z-index: 10;
   color: var(--primary-color);

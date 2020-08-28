@@ -1,7 +1,15 @@
 <template>
   <footer class="ph-footer"><slot></slot></footer>
 </template>
-<style>
+
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator'
+
+@Component
+export default class PhFooter extends Vue {}
+</script>
+
+<style lang="scss" scoped>
 .ph-footer {
   font-size: 14px;
 }

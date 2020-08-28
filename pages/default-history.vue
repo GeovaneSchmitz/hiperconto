@@ -8,15 +8,17 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-import Text from '@/components/Text.vue'
-import Footer from '@/components/Footer.vue'
+import PhText from '@/components/Text.vue'
+import PhFooter from '@/components/Footer.vue'
 
-export default Vue.extend({
+import { Component, Vue } from 'vue-property-decorator'
+
+@Component({
   transition: 'page',
   components: {
-    phText: Text,
-    phFooter: Footer,
+    PhText,
+    PhFooter,
   },
 })
+export default class PhDefaultHistory extends Vue {}
 </script>
