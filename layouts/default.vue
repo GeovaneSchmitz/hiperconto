@@ -2,10 +2,7 @@
   <div class="ph-app">
     <div class="ph-content">
       <ph-title />
-      <ph-image
-        :discription="$t('imageDescription')"
-        src="~/assets/bale-das-mulheres-bruxas.jpg"
-      />
+      <ph-image :discription="$t('imageDescription')" />
       <div class="ph-page"><Nuxt /></div>
     </div>
   </div>

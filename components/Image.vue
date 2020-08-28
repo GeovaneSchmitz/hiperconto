@@ -1,7 +1,7 @@
 <template>
   <div class="ph-image">
     <div class="ph-image-wrapper">
-      <img class="ph-image-img" :src="src" />
+      <img class="ph-image-img" src="~/assets/bale-das-mulheres-bruxas.jpg" />
     </div>
     <div class="ph-image-description">{{ discription }}</div>
   </div>
@@ -10,10 +10,6 @@
 import Vue from 'vue'
 export default Vue.extend({
   props: {
-    src: {
-      type: String,
-      required: true,
-    },
     discription: {
       type: String,
       default: '',
