@@ -34,7 +34,7 @@ export default class PhButton extends Vue {
   margin: 0.5rem;
   border: 1px solid var(--primary-color);
   border-radius: 5px;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   color: rgba(0, 0, 0, 0.8);
   background-color: #fafafa;
   outline: none;
