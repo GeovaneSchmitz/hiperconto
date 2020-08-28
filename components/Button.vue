@@ -52,3 +52,4 @@ export default class PhButton extends Vue {
   background-color: var(--primary-color);
 }
 </style>
+
