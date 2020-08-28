@@ -36,7 +36,7 @@ body {
   --text-color: rgba(0, 0, 0, 0.8);
   --text-color-secundary: rgba(0, 0, 0, 0.6);
   --box-shadow-color: rgba(0, 0, 0, 0.1);
-  --highlight-color: #000;
+  --highlight-color: #fff;
 
   background-color: #fafaf0;
   margin: 0;
