@@ -37,7 +37,8 @@ export default class PhQuestion extends Vue {
   background-color: var(--highlight-color);
   box-shadow: 0 1rem 20px var(--box-shadow-color);
   margin: 2rem 0;
-  padding: 2rem;
+  padding: 1rem;
+  border-radius: 5px;
 }
 .ph-question-timeline {
   display: flex;
