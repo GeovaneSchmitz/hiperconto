@@ -2,7 +2,7 @@
   <div class="ph-app">
     <div class="ph-content">
       <ph-title />
-      <ph-image :discription="$t('imageDescription')" />
+      <ph-image :description="$t('imageDescription')" />
       <div class="ph-page"><Nuxt /></div>
     </div>
   </div>
