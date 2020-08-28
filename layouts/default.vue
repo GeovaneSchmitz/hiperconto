@@ -27,7 +27,7 @@ export default class phLayout extends Vue {}
 * {
   font-family: 'Merriweather', serif;
 }
-$primary: #eb415a;
+$primary: #6b2b83;
 body {
   --primary-color: #{$primary};
   --primary-color-background: #{adjust-color($primary, $alpha: -0.9)};
@@ -38,7 +38,7 @@ body {
   --box-shadow-color: rgba(0, 0, 0, 0.1);
   --highlight-color: #fff;
 
-  background-color: #fafaf0;
+  background-color: #131512e6;
   margin: 0;
   padding: 0;
 }
