@@ -34,8 +34,8 @@ export default class PhQuestion extends Vue {
   text-align: center;
 }
 .ph-question-selector {
-  background-color: #fff;
-  box-shadow: 0 1rem 20px rgba(0, 0, 0, 0.1);
+  background-color: var(--highlight-color);
+  box-shadow: 0 1rem 20px var(--box-shadow-color);
   margin: 2rem 0;
   padding: 2rem;
 }

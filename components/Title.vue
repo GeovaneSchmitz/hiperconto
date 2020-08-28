@@ -29,7 +29,7 @@ export default class PhTitle extends Vue {}
   margin: 0 0 4rem 0;
   line-height: 1;
   font-weight: 400;
-  color: #444;
+  color: var(--text-color-secundary);
   font-family: 'Lato', sans-serif;
 }
 </style>

@@ -22,7 +22,7 @@ export default class PhText extends Vue {
   line-height: 1.5;
   text-align: justify;
   text-justify: inter-word;
-  color: rgba(0, 0, 0, 0.9);
+  color: var(--text-color);
   font-size: 14px;
 }
 

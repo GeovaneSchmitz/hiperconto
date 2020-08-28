@@ -35,8 +35,8 @@ export default class PhButton extends Vue {
   border: 1px solid var(--primary-color);
   border-radius: 5px;
   padding: 0.5rem 1rem;
-  color: rgba(0, 0, 0, 0.8);
-  background-color: #fafafa;
+  color: var(--text-color);
+  background-color: var(--element-color);
   outline: none;
 }
 
@@ -48,7 +48,7 @@ export default class PhButton extends Vue {
 .ph-button:active,
 .ph-button-active,
 .ph-button:focus {
-  color: #fff;
+  color: var(--highlight-color);
   background-color: var(--primary-color);
 }
 </style>

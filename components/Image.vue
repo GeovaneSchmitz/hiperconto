@@ -29,7 +29,7 @@ export default class PhImage extends Vue {
 }
 .ph-image-description {
   margin: 0.5rem 0 2rem 0;
-  color: #333;
+  color: var(--text-color-secundary);
   font-size: 14px;
   font-family: 'Lato', sans-serif;
   text-align: center;

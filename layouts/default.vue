@@ -32,6 +32,11 @@ body {
   --primary-color: #{$primary};
   --primary-color-background: #{adjust-color($primary, $alpha: -0.9)};
   --primary-color-darker: #{adjust-color($primary, $lightness: -20)};
+  --element-color: #fafafa;
+  --text-color: rgba(0, 0, 0, 0.8);
+  --text-color-secundary: rgba(0, 0, 0, 0.6);
+  --box-shadow-color: rgba(0, 0, 0, 0.1);
+  --highlight-color: #000;
 
   background-color: #fafaf0;
   margin: 0;
