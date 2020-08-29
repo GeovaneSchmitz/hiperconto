@@ -1,8 +1,6 @@
 <template>
   <div class="ph-image">
-    <div class="ph-image-wrapper">
-      <img class="ph-image-img" src="~/assets/bale-das-mulheres-bruxas.jpg" />
-    </div>
+    <div class="ph-image-wrapper"><slot></slot></div>
     <div class="ph-image-description">{{ description }}</div>
   </div>
 </template>
@@ -16,17 +14,29 @@ export default class PhImage extends Vue {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .ph-image {
   display: flex;
   flex-direction: column;
   width: calc(100% + 4rem);
   margin: 0 -2rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .ph-image-wrapper {
-  overflow: hidden;
-  max-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ph-image-wrapper > img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  width: auto;
+  height: auto;
 }
 
 .ph-image-description {
@@ -35,12 +45,5 @@ export default class PhImage extends Vue {
   font-size: 14px;
   font-family: 'Lato', sans-serif;
   text-align: center;
-}
-
-.ph-image-img {
-  max-width: 110%;
-  object-fit: cover;
-  width: auto;
-  height: auto;
 }
 </style>

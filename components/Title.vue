@@ -4,7 +4,7 @@
       {{ $t('title') }}
     </div>
     <div class="ph-subtitle">
-      {{ $t('subtitle') }}
+      {{ $t('subtitle') }} - {{ $t('authorOriginal') }}
     </div>
   </div>
 </template>
@@ -26,7 +26,7 @@ export default class PhTitle extends Vue {}
 }
 
 .ph-subtitle {
-  margin: 0 0 4rem 0;
+  margin: 0;
   line-height: 1;
   font-weight: 400;
   color: var(--text-color-secundary);

@@ -24,6 +24,7 @@
             </template>
             <template v-slot:timeline>
               <ph-timeline option="1">
+                <ph-image><img src="~/assets/bale-bruxolico.jpg" /></ph-image>
                 <ph-question>
                   <template v-slot:question>{{ $t('question3') }}</template>
                   <template v-slot:buttons>
@@ -42,6 +43,9 @@
                 </ph-question>
               </ph-timeline>
               <ph-timeline option="2">
+                <ph-image
+                  ><img class="ph-img-lucifer" src="~/assets/lucifer.jpg"
+                /></ph-image>
                 <ph-question>
                   <template v-slot:question>{{ $t('question4') }}</template>
                   <template v-slot:buttons>
@@ -70,7 +74,7 @@
     </ph-question>
     <ph-footer
       ><nuxt-link to="default-history">
-        {{ $t('linkDefaultHistory') }}</nuxt-link
+        <ph-button>{{ $t('linkDefaultHistory') }}</ph-button></nuxt-link
       ></ph-footer
     >
   </div>
@@ -84,6 +88,7 @@ import PhQuestion from '@/components/Question.vue'
 import PhFooter from '@/components/Footer.vue'
 import PhTimeline from '@/components/Timeline.vue'
 import PhButton from '@/components/Button.vue'
+import PhImage from '@/components/Image.vue'
 
 @Component({
   transition: 'page',
@@ -93,7 +98,14 @@ import PhButton from '@/components/Button.vue'
     PhQuestion,
     PhFooter,
     PhButton,
+    PhImage,
   },
 })
 export default class PhHyperConto extends Vue {}
 </script>
+
+<style scoped>
+.ph-img-lucifer {
+  width: 50%;
+}
+</style>
