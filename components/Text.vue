@@ -1,10 +1,10 @@
 <template>
   <div :class="{ 'ph-text-with-first-letter': firstLetter }">
-    <p v-for="item in text" :key="item" class="ph-paragraph">
-      <span v-if="firstLetter" class="ph-first-letter">{{
+    <p v-for="(item, index) in text" :key="item" class="ph-paragraph">
+      <span v-if="firstLetter && index === 0" class="ph-first-letter">{{
         item.charAt(0)
       }}</span
-      >{{ firstLetter ? item.substring(1) : item }}
+      >{{ firstLetter && index === 0 ? item.substring(1) : item }}
     </p>
   </div>
 </template>
@@ -28,7 +28,7 @@ export default class PhText extends Vue {
   font-size: 14px;
 }
 
-.ph-text-with-first-letter > p:first-child > .ph-first-letter {
+.ph-first-letter {
   font-size: 42px;
   line-height: 1;
   margin-right: 4px;
