@@ -23,10 +23,12 @@ export default class PhImage extends Vue {
   width: calc(100% + 4rem);
   margin: 0 -2rem;
 }
+
 .ph-image-wrapper {
   overflow: hidden;
   max-height: 600px;
 }
+
 .ph-image-description {
   margin: 0.5rem 0 2rem 0;
   color: var(--text-color-secundary);
@@ -34,6 +36,7 @@ export default class PhImage extends Vue {
   font-family: 'Lato', sans-serif;
   text-align: center;
 }
+
 .ph-image-img {
   max-width: 110%;
   object-fit: cover;

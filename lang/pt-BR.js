@@ -1,7 +1,7 @@
 export default {
   title: 'Balé de mulheres bruxas',
   subtitle: 'O fantástico na Ilha de Santa Catarina',
-  imageDescription: 'Balé de mulheres bruxas (1962) - Franklin Cascaes.',
+  imageDescription: 'Balé de Mulheres Bruxas (1962) - Franklin Cascaes.',
 
   defaultHistory: [
     'Os intelectuais anônimos populares dos séculos passadosusaram os seus vigores mentais com delicadeza e sabedoriapara criar mundos fantásticos de ficções biológicas e espirituaisdivinatórias. Entre estes, criaram um mundo fabuloso, ondecrianças humanas gêmeas nascem com a predestinação dereceberem um talento demoníaco, que lhes dá o direito deviverem vida bruxólica, intensivamente quimérica, quandoquiserem e onde quiserem, tanto por cima da ginga da Terra,quanto por dentro dos espaços siderais e dos celestiais.',
@@ -55,8 +55,8 @@ export default {
     'Semanas depois do baile memorável, a única coisa que se comentava no bairro era o desaparecimento de duas jovens que haviam dançado até suas mortes.',
   ],
   timelineQuestion1Option2: [
-    'Chamou a atenção das outras duas velhas e, quando o moço Lúcifer passou dançando perto delas, unissonamente elas perguntaram: "Como você dança com esses pés esquisitos?"',
-    'Quando Lúcifer ouviu a perguntas da trempe de velhas, partiu para a sedução. "De onde eu venho, esses movimentos são apenas o começo"',
+    'Chamou a atenção das outras duas velhas e, quando o moço Lúcifer passou dançando perto delas, unissonamente elas perguntaram: “Como você dança com esses pés esquisitos?”',
+    'Quando Lúcifer ouviu a perguntas da trempe de velhas, partiu para a sedução. “De onde eu venho, esses movimentos são apenas o começo”',
   ],
   timelineQuestion1Option3: [
     '“Este homem que ’tá dançando aí tem pé de pato!”',
@@ -69,21 +69,21 @@ export default {
   yes: 'Sim!',
   no: 'Não!',
   timelineQuestion3Option1: [
-    '"Achei que não irias perguntar"',
+    '“Achei que não irias perguntar”',
     'Assim, a trempe de velhas seguiu o desconhecido até o fundo da igreja e todos se despiram e aproveitaram do pecado mais carnal.',
-    'Após o coito infernal o garotão Lúcifer some em um estalar de dedos enquanto as três senhoras se vestem. Uma delas percebe o sumiço e pergunta "vocês reparam a calda sinistra no corpo dele?" ao que as outras respondem "era nisso que você tava reparando?" A mais fofoqueira do trio se descobre grávida do garotão três meses depois. Outra desenvolve um apetite sexual insaciável e dedica sua vida à procura do homem; enquanto a última resolveu procurar outras testemunhas de presença daquele ser mágico na Terra.',
+    'Após o coito infernal o garotão Lúcifer some em um estalar de dedos enquanto as três senhoras se vestem. Uma delas percebe o sumiço e pergunta “vocês reparam a calda sinistra no corpo dele?” ao que as outras respondem “era nisso que você tava reparando?” A mais fofoqueira do trio se descobre grávida do garotão três meses depois. Outra desenvolve um apetite sexual insaciável e dedica sua vida à procura do homem; enquanto a última resolveu procurar outras testemunhas de presença daquele ser mágico na Terra.',
   ],
   timelineQuestion3Option2: [
-    '"A gente já viu homens como você: Muita fala e pouca ação"',
+    '“A gente já viu homens como você: Muita fala e pouca ação”',
   ],
-  question4: '"Vocês querem aprender?"',
+  question4: '“Vocês querem aprender?”',
   timelineQuestion4Option1: [
-    '"Se você nos fizer dançar melhor do que Terezinha - ela se acha tão boa que se inscreveu no concurso de dança do bairro"',
+    '“Se você nos fizer dançar melhor do que Terezinha - ela se acha tão boa que se inscreveu no concurso de dança do bairro”',
     'Satanás então leva a trempe de velhas para seu covil e, num ritual infernal, demonstra seus movimentos mais sensuais e artísticos enquanto as velhas o copiam. Depois de horas e horas suando, expondo seus hormônios e sentimentos, o trio cai no chão devido ao cansaço. Satanás então recita algumas palavras incompreensíveis aos meros humanos, e num estralar de dedos suga as almas das velhas cansadas e alimenta sua imortalidade.',
     'Depois desse ocorrido, nenhuma pessoa se aventurou à marcar aulas de danças com homens com pés de pato.',
   ],
   timelineQuestion4Option2: [
-    '"Não há o que aprender com alguém com pés de pato"',
+    '“Não há o que aprender com alguém com pés de pato”',
   ],
   timelineEnd: [
     'Quando Lúcifer ouviu em coro as vozes das três velhas, provocou, dentro do salão Pega-Fogo, um estrondo que nem estampido de trovoada baixa. Queimou enxofre em abundância e desapareceu nos feéricos encantos das fantasias humanas.			',

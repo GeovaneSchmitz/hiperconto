@@ -8,10 +8,10 @@
 </template>
 
 <script lang="ts">
+import { Component, Vue } from 'vue-property-decorator'
+
 import PhText from '@/components/Text.vue'
 import PhFooter from '@/components/Footer.vue'
-
-import { Component, Vue } from 'vue-property-decorator'
 
 @Component({
   transition: 'page',

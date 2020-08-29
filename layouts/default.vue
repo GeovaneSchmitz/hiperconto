@@ -9,10 +9,10 @@
 </template>
 
 <script lang="ts">
+import { Component, Vue } from 'vue-property-decorator'
+
 import PhImage from '@/components/Image.vue'
 import PhTitle from '@/components/Title.vue'
-
-import { Component, Vue } from 'vue-property-decorator'
 
 @Component({
   components: {
@@ -24,10 +24,12 @@ export default class phLayout extends Vue {}
 </script>
 
 <style lang="scss">
+$primary: #6b2b83;
+
 * {
   font-family: 'Merriweather', serif;
 }
-$primary: #6b2b83;
+
 body {
   --primary-color: #{$primary};
   --primary-color-background: #{adjust-color($primary, $alpha: -0.8)};
@@ -43,21 +45,28 @@ body {
   padding: 0;
 }
 
+*::selection {
+  background: var(--primary-color);
+}
+
 .ph-app {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .ph-content {
   padding: 1rem 4rem;
   max-width: 720px;
 }
+
 @media screen and (max-width: 720px) {
   .ph-content {
     padding: 1rem 2rem;
     max-width: 720px;
   }
 }
+
 .ph-page {
   display: flex;
   flex-direction: column;

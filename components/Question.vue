@@ -33,6 +33,7 @@ export default class PhQuestion extends Vue {
   font-weight: 700;
   text-align: center;
 }
+
 .ph-question-selector {
   background-color: var(--highlight-color);
   box-shadow: 0 1rem 20px var(--box-shadow-color);
@@ -40,10 +41,12 @@ export default class PhQuestion extends Vue {
   padding: 1rem;
   border-radius: 5px;
 }
+
 .ph-question-timeline {
   display: flex;
   flex-direction: column;
 }
+
 .ph-question-buttons {
   display: flex;
   justify-content: space-around;
