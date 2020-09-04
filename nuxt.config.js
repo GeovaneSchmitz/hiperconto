@@ -8,6 +8,14 @@ export default {
     host: '0.0.0.0', // default: localhost
   },
 
+
+
+  pwa: {
+    meta: {
+      theme_color: '#6b2b83',
+    },
+  },
+
   mode: 'universal',
   /*
    ** Nuxt target
@@ -64,6 +72,7 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
+    '@nuxtjs/pwa',
     [
       'nuxt-i18n',
       {

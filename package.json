@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^1.0.0",
+    "@nuxtjs/pwa": "^3.0.2",
     "node-sass": "^4.14.1",
     "nuxt": "^2.14.0",
     "nuxt-i18n": "^6.13.12",
