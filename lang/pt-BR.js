@@ -35,12 +35,12 @@ export default {
   timelineQuestion1Option1: [
     '“A gente morre e não vê tudo”.',
     'As três comadres apenas comentam entre si sobre o que viram, mas não fazem nenhum comentário audível.',
-    'Dessa forma, o baile segue com o entusiasmo infernal do garotão Lucifer. No final do baile, ele sai envolvendo seus braços em duas jovens - quando para na saída do salão e direciona uma piscadela sensual para a trempe de velha.',
+    'Dessa forma, o baile segue com o entusiasmo infernal do garotão Lucifer. No final do baile, ele sai envolvendo seus braços em duas jovens - quando para na saída do salão e direciona uma piscadela sensual para a trempe de velhas.',
     'Semanas depois do baile memorável, a única coisa que se comentava no bairro era o desaparecimento de duas jovens que haviam dançado até suas mortes.',
   ],
   timelineQuestion1Option2: [
     'Chamou a atenção das outras duas velhas e, quando o moço Lúcifer passou dançando perto delas, unissonamente elas perguntaram: “Como você dança com esses pés esquisitos?”',
-    'Quando Lúcifer ouviu a perguntas da trempe de velhas, partiu para a sedução. “De onde eu venho, esses movimentos são apenas o começo”',
+    'Quando Lúcifer ouviu a pergunta da trempe de velhas, partiu para a sedução. “De onde eu venho, esses movimentos são apenas o começo”',
   ],
   timelineQuestion1Option3: ['“Este homem que tá dançando aí tem pé de pato!”'],
 
