@@ -35,16 +35,14 @@ export default {
   timelineQuestion1Option1: [
     '“A gente morre e não vê tudo”.',
     'As três comadres apenas comentam entre si sobre o que viram, mas não fazem nenhum comentário audível.',
-    'Dessa forma, o baile segue com o entusiasmo infernal do garotão Lucifer. No final do baile, ele sai envolvendo seus braços em duas jovens - quando para na saída do salão e direciona uma piscadela sensual para a trempe de velhas.',
+    'Dessa forma, o baile segue com o entusiasmo infernal do garotão Lucifer. No final do baile, ele sai envolvendo seus braços em duas jovens - quando para na saída do salão e direciona uma piscadela sensual para a trempe de velha.',
     'Semanas depois do baile memorável, a única coisa que se comentava no bairro era o desaparecimento de duas jovens que haviam dançado até suas mortes.',
   ],
   timelineQuestion1Option2: [
     'Chamou a atenção das outras duas velhas e, quando o moço Lúcifer passou dançando perto delas, unissonamente elas perguntaram: “Como você dança com esses pés esquisitos?”',
     'Quando Lúcifer ouviu a perguntas da trempe de velhas, partiu para a sedução. “De onde eu venho, esses movimentos são apenas o começo”',
   ],
-  timelineQuestion1Option3: [
-    '“Este homem que tá dançando aí tem pé de pato!”',
-  ],
+  timelineQuestion1Option3: ['“Este homem que tá dançando aí tem pé de pato!”'],
 
   question2: 'Seduzir ou levar a alma?',
   question2Option1: 'Seduzir',
@@ -55,7 +53,7 @@ export default {
   timelineQuestion3Option1: [
     '“Achei que não irias perguntar”',
     'Assim, a trempe de velhas seguiu o desconhecido até o fundo da igreja e todos se despiram e aproveitaram do pecado mais carnal.',
-    'Após o coito infernal o garotão Lúcifer some em um estalar de dedos enquanto as três senhoras se vestem. Uma delas percebe o sumiço e pergunta “vocês reparam a calda sinistra no corpo dele?” ao que as outras respondem “era nisso que você tava reparando?” A mais fofoqueira do trio se descobre grávida do garotão três meses depois. Outra desenvolve um apetite sexual insaciável e dedica sua vida à procura do homem; enquanto a última resolveu procurar outras testemunhas de presença daquele ser mágico na Terra.',
+    'Após o coito infernal o garotão Lúcifer some em um estalar de dedos enquanto as três senhoras se vestem. Uma delas percebe o sumiço e pergunta “vocês repararam a calda sinistra no corpo dele?” ao que as outras respondem “era nisso que você tava reparando?” A mais fofoqueira do trio se descobre grávida do garotão três meses depois. Outra desenvolve um apetite sexual insaciável e dedica sua vida à procura do homem; enquanto a última resolveu procurar outras testemunhas de presença daquele ser mágico na Terra.',
   ],
   timelineQuestion3Option2: [
     '“A gente já viu homens como você: Muita fala e pouca ação”',
@@ -64,7 +62,7 @@ export default {
   timelineQuestion4Option1: [
     '“Se você nos fizer dançar melhor do que Terezinha - ela se acha tão boa que se inscreveu no concurso de dança do bairro”',
     'Satanás então leva a trempe de velhas para seu covil e, num ritual infernal, demonstra seus movimentos mais sensuais e artísticos enquanto as velhas o copiam. Depois de horas e horas suando, expondo seus hormônios e sentimentos, o trio cai no chão devido ao cansaço. Satanás então recita algumas palavras incompreensíveis aos meros humanos, e num estralar de dedos suga as almas das velhas cansadas e alimenta sua imortalidade.',
-    'Depois desse ocorrido, nenhuma pessoa se aventurou à marcar aulas de danças com homens com pés de pato.',
+    'Depois desse ocorrido, nenhuma pessoa se aventurou a marcar aulas de danças com homens com pés de pato.',
   ],
   timelineQuestion4Option2: [
     '“Não há o que aprender com alguém com pés de pato”',
